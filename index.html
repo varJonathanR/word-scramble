@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="varJonathanR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="./src/index.js" defer></script>
+    <title>Guess The Word || varJonathanR</title>
+</head>
+<body>
+    <section class="container">
+        <img src="./src/assets/Word Scramblle.svg" alt="Word Scramblle">
+        <p id="word" class="word"></p>
+        <div class="details">
+            <p>Tries: <span id="attemps" class="attemps"></span></p>
+            <p>Mistakes: <span id="mistakes"></span></p>
+        </div>
+        <input id="typing-word" class="typing-word" type="text" maxlength="1">
+        <div id="input-container" class="input-container">
+        </div>
+        <div class="btn-container">
+            <button id="newWord">Random</button>
+            <button id="resetWord">Reset</button>
+        </div>
+    </section>
+</body>
+</html>
